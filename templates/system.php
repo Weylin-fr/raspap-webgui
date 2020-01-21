@@ -78,8 +78,7 @@ if ($cputemp > 70) {
                                               role="progressbar" aria-valuenow="<?php echo htmlspecialchars($cpuload, ENT_QUOTES); ?>" aria-valuemin="0" aria-valuemax="100"
                                               style="width: <?php echo htmlspecialchars($cpuload, ENT_QUOTES); ?>%"><?php echo htmlspecialchars($cpuload, ENT_QUOTES); ?>%
                   </div>
-                </div>
-                </div>
+		</div>
                 <div class="mb-1"><?php echo _("CPU Temp"); ?></div>
                 <div class="progress mb-4" style="height: 20px;">
                   <div class="progress-bar bg-<?php echo htmlspecialchars($cputemp_status, ENT_QUOTES); ?>"
